@@ -38,16 +38,19 @@
     font-family: 'GmarketSans';
     font-size: 60px;
     color: #ffffff;
+    font-weight: 800;
 }
 
 .domain_title span {
     color: #6600ff;
+    /* font-size: medium; */
 }
 
 .domain_btn {
     float: left;
     width: 100%;
     margin: 40px 0 0 0;
+    /* font-size: 600px; */
 }
 
 .domain_btn li {
@@ -55,10 +58,12 @@
     width: 49%;
     margin: 0 2% 2% 0;
     text-align: center;
+
 }
 
 .domain_btn li:nth-child(2n) {
     margin: 0 0 2% 0;
+    /* font-size: 600px; */
 }
 
 .domain_btn li a {
@@ -71,17 +76,20 @@
     font-size: 40px;
     color: #ffffff;
     transition: all 0.5s;
+    font-weight: 800;
 }
 
 .domain_btn li a span {
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffd000;
 }
 
 .domain_btn li a:hover {
     box-shadow: 0 0 50px rgba(102, 0, 255, 0.7);
     border-radius: 10px;
+    font-size: 40px;
+
 }
 
 .domain_text {
@@ -92,8 +100,8 @@
     line-height: 1.4;
     font-family: 'GmarketSans';
     font-size: 30px;
-    font-weight: 300;
-    color: #ffffff;
+    font-weight: 800;
+    color: #2d128d;
 }
 
 .domain_text span {
@@ -104,7 +112,7 @@
 @media screen and (max-width:1024px) {
     .domain_box {
         float: left;
-        width: 100%;
+        width: 80%;
         padding: 0 20px;
     }
 
@@ -123,7 +131,7 @@
     }
 
     .domain_btn li a {
-        font-size: 30px;
+        font-size: 32px;
         padding: 20px;
     }
 
@@ -159,7 +167,7 @@
     }
 
     .domain_btn li a {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .domain_btn li a span {
